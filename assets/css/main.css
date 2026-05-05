@@ -3138,6 +3138,27 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+	.logo-container {
+		position: absolute;
+		top: 2em;
+		left: 2em;
+		display: flex;
+		align-items: center;
+		z-index: 3;
+	}
+
+	.logo-img {
+		max-width: 80px;
+		height: auto;
+		margin-right: 1em;
+	}
+
+	.logo-text {
+		font-size: 2em;
+		font-weight: bold;
+		color: #ffffff;
+	}
+
 /* Footer */
 
 	#footer {
