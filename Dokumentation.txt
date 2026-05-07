@@ -1,0 +1,10 @@
+Dokumentation um den Prozess der Erstellung des Webshops nachvollzuziehen zu können und für spätere Zwecke reproduzieren zu können
+Es werden unteranderem nützliche Links und Tools festgehalten.
+
+- für bildmarke und wortmarke keine Verletzung wurde mit https://www.tmdn.org/ gearbeitet.
+Da Bildmarke keine Verletzung wird Bewegunngs auch von keiner Verletzung ausgegangen.
+- https://www.patentamt.at/nizzaklassen
+
+    - Liste der Waren: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassiifikation_von_Nizza_NCL_13-2026_Liste_der_Waren_nach_Klassen.pdf
+    - herunterladbare Software-Anwendungen für Computer, Klasse 9
+    - Liste der Dienstleistungen: Software as a Service [SaaS], ..., paar andere Sachen vllt auch aber sieht alles nach 42 aus
