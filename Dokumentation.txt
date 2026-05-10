@@ -30,3 +30,9 @@ Zuordnung zu den Nizzaklassen:
         - Software as a Service [SaaS], Klasse 42
 
 
+- Impressum: Mediengesetz: https://www.usp.gv.at/themen/brancheninformationen/information-und-kommunikation/impressumspflicht-gemaess-para-24-mediengesetz.html
+- Mediengesetz leitet weiter auf E-Commerce-Gesetz, 
+laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspflichten aus E-Commerce-Gesetz § 5 angeben, die Punkte abgearbeitet
+- die Paragrafen:
+    - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001703&FassungVom=2026-05-10&Artikel=&Paragraf=3&Anlage=&Uebergangsrecht=
+    - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001703&FassungVom=2026-05-10&Artikel=&Paragraf=5&Anlage=&Uebergangsrecht=
