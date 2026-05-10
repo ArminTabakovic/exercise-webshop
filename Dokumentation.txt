@@ -1,10 +1,32 @@
-Dokumentation um den Prozess der Erstellung des Webshops nachvollzuziehen zu können und für spätere Zwecke reproduzieren zu können
+Dokumentation um den Prozess der Erstellung des Webshops nachvollzuziehen und eventuell für spätere Zwecke reproduzieren zu können
 Es werden unteranderem nützliche Links und Tools festgehalten.
 
-- für bildmarke und wortmarke keine Verletzung wurde mit https://www.tmdn.org/ gearbeitet.
-Da Bildmarke keine Verletzung wird Bewegunngs auch von keiner Verletzung ausgegangen.
-- https://www.patentamt.at/nizzaklassen
+- Bild- und Bewegungsmarke mit python library matplotlib erstellt. Lizenz dieser lib: https://matplotlib.org/stable/project/license.html#license-agreement
+    - Aus dem unter Absatz kann man rauslesen, dass die licence einem viele Rechte gewährt"...provided, however, ... notice of copyright", meines Erachtens
+    bezieht sich der Absatz allerdings auf den Code der Library und die "derivative works" auch auf Code und nicht auf den generierten Output.
+- Der Absatz: License agreement for matplotlib versions 1.3.0 and later:
+"""
+2. Subject to the terms and conditions of this License Agreement, MDT
+hereby grants Licensee a nonexclusive, royalty-free, world-wide license
+to reproduce, analyze, test, perform and/or display publicly, prepare
+derivative works, distribute, and otherwise use matplotlib
+alone or in any derivative version, provided, however, that MDT's
+License Agreement and MDT's notice of copyright, i.e., "Copyright (c)
+2012- Matplotlib Development Team; All Rights Reserved" are retained in
+matplotlib  alone or in any derivative version prepared by
+Licensee.
+"""
+- Dementsprechend habe ich keine Klausel gefunden, die die Verwendung des Outputs beschränkt oder eine benötigte Markierung des Outputs vorsieht.
 
-    - Liste der Waren: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassiifikation_von_Nizza_NCL_13-2026_Liste_der_Waren_nach_Klassen.pdf
-    - herunterladbare Software-Anwendungen für Computer, Klasse 9
-    - Liste der Dienstleistungen: Software as a Service [SaaS], ..., paar andere Sachen vllt auch aber sieht alles nach 42 aus
+
+- Bildmarke und Wortmarke keine Verletzung des Markenrechts festgestellt mit https://www.tmdn.org/ 
+Da Bildmarke keine Verletzung wird bei der Bewegunngsmarke auch von keiner Verletzung ausgegangen.
+Zuordnung zu den Nizzaklassen: 
+- https://www.patentamt.at/nizzaklassen
+    - https://www.patentamt.at/infoblaetter#c1646
+        - Liste der Waren: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassiifikation_von_Nizza_NCL_13-2026_Liste_der_Waren_nach_Klassen.pdf
+        - herunterladbare Software-Anwendungen für Computer, Klasse 9
+        - Liste der Dienstleistungen: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassifikation_von_Nizza_NCL_13-2026_Liste_der_Dienstleistungen_nach_Klassen.pdf
+        - Software as a Service [SaaS], Klasse 42
+
+
