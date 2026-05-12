@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Checkout - MINOPTAR GmbH</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <section class="main style1">
+        <div class="container">
+            <header class="major"><h2>Enterprise License Checkout</h2></header>
+            
+            <div class="box">
+                <p>Please enter your business email address. After successful payment, your individual license key and access to the software package will be sent to this address automatically.</p>
+                
+                <form method="post" action="#">
+                    <div class="row gtr-uniform">
+                        <div class="col-12">
+                            <input type="email" name="checkout-email" id="checkout-email" value="" placeholder="Business Email Address (e.g. name@company.com)" required />
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li>
+                                    <button type="button" class="button primary large" onclick="alert('Redirecting to External Payment Provider...')">
+                                        External Payment Provider (PayPal)
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <p style="text-align: center; font-size: 0.8em; color: #999;">
+                By clicking the button above, you will be redirected to an external site to complete the transaction safely.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
