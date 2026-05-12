@@ -3633,3 +3633,7 @@ input, select, textarea {
 }
 .pricing-card h3 { color: #333; }
 .pricing-card .price { font-size: 1.5em; font-weight: bold; color: #000; margin: 0.5em 0; }
+
+body > section.main:first-of-type {
+    padding-top: 8em !important;
+}
