@@ -3,7 +3,7 @@ Es werden unteranderem nützliche Links und Tools festgehalten.
 
 - Github pages aufsetzen und https://html5up.net/ Template rausgesucht
 
-- Bild- und Bewegungsmarke mit python library matplotlib erstellt. Lizenz dieser lib: https://matplotlib.org/stable/project/license.html#license-agreement
+- Bild- und Bewegungsmarke mit Python library matplotlib erstellt. Lizenz dieser lib: https://matplotlib.org/stable/project/license.html#license-agreement
     - Aus "License agreement for matplotlib versions 1.3.0 and later" Punkt 2 kann man rauslesen, dass die licence einem viele Rechte gewährt"...provided, however, ... notice of copyright", meines Erachtens
     bezieht sich der Absatz allerdings auf den Code der Library und die "derivative works" auch auf Code und nicht auf den generierten Output.
     - Dementsprechend habe ich keine Klausel gefunden, die die Verwendung des Outputs beschränkt oder eine benötigte Markierung des Outputs vorsieht.
@@ -21,7 +21,7 @@ Zuordnung zu den Nizzaklassen:
 
 - Überlegung welche Gesellschaftsform in Frage kommt. Auswahl zwischen GmbH und Einzelunternehmen fiel auf GmbH,
 Einzelunternehmen schien weniger rechtlichen Overhead mizubringen und ich dachte die Haftung kann ich mit Klauseln im Licencse Agreement
-regeln, aber Recherche: es muss nicht sein, dass diese Klauseln vor Gericht stand halten, deswegen GmbH mit 
+regeln, aber Recherche: es muss nicht sein, dass diese Klauseln vor Gericht standhalten, deswegen GmbH mit 
 beschränkter Haftung doch die sicherere Wahl.
 
 - Impressum: Mediengesetz: https://www.usp.gv.at/themen/brancheninformationen/information-und-kommunikation/impressumspflicht-gemaess-para-24-mediengesetz.html
@@ -54,3 +54,5 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
         - https://gdpr-info.eu/
     - Was speichert mein Host Github Pages recherchiert:
         - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
+    - Die in der Vorlesung erwähnte von Dipl. Ing. Soare erwähnte Aufbewahrungspflicht von Rechnungen berücksichtigt:
+        - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10003940&Artikel=&Paragraf=132&Anlage=&Uebergangsrecht=
