@@ -40,3 +40,17 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
     - https://my.uq.edu.au/files/6810/matlab-end-user-licence-agreement.pdf
 - Vorgangsweise: Nehme die Schnittmenge an Text den ich verstehe plus für meine Software als wichtig erachte
 - TODO: Nationales Recht beachten, das sind keine österreichischen Unternehmen.
+
+
+- Datenschutzerklärung
+    - Bezüglich Informationspflichten gearbeitet mit:
+        - Vorlesungsfolien Auflistung der Informationspflichten
+        - bereitgestellte PDF zur DSVGO
+        - https://de.wix.com/blog/beitrag/dsgvo-was-du-beim-erstellen-einer-dsgvo-konformen-website-beachten-musst
+    - Beim Verfassen des Textes folgende Datenschutzerklärungen benutzt, modifiziert und übersetzt: 
+        - https://www.bmi.gv.at/402/index.html
+        - https://dsb.gv.at/kontakt/datenschutzerklaerung
+    - Die Rechte eines Nutzers in der englischen Version der DSVGO nachgeschaut um die Artikel richtig auf Englisch zu bennen:
+        - https://gdpr-info.eu/
+    - Was speichert mein Host Github Pages recherchiert:
+        - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
