@@ -56,3 +56,7 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
         - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
     - Die in der Vorlesung erwähnte von Dipl. Ing. Soare erwähnte Aufbewahrungspflicht von Rechnungen berücksichtigt:
         - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10003940&Artikel=&Paragraf=132&Anlage=&Uebergangsrecht=
+
+
+- Barrierefreiheitserklärung
+    - https://www.audioeye.com/

@@ -1,38 +1,22 @@
 <!DOCTYPE HTML>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en"> <!--  1: Language attribute added -->
 	<head>
 		<title>minoptar - Optimizer Engine</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--  2: Removed "user-scalable=no" to allow zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Sticky Header Navigation 
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
-				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
-				<span class="nav-logo-text">MINOPTAR</span>
-			</div>
-			<ul class="nav-links">
-				<li><a href="#header" class="scrolly">Home</a></li>
-				<li><a href="#one" class="scrolly">Solutions</a></li>
-				<li><a href="#pricing" class="scrolly">Pricing</a></li>
-				<li><a href="about.html">About Us</a></li>
-			</ul>
-		</nav> 
-		-->
+		<!--  3: Skip Link for accessibility (visible on focus) -->
+		<a href="#one" class="skip-link">Skip to main content</a>
 
-		<!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
+		<!--  4: Nav Landmark -->
+		<nav id="nav-sticky" aria-label="Main Navigation">
 			<div class="nav-logo-container">
-				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
+				<img src="images/logo_zoomed.png" alt="MINOPTAR Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
 			<ul class="nav-links">
@@ -42,9 +26,11 @@
 			</ul>
 		</nav>
 
-		<!-- Header -->
-			<section id="header">
-				<video autoplay muted loop playsinline class="header-video">
+		<!--  5: Main Landmark wraps all primary content -->
+		<main id="main-content">
+
+			<header id="header"> <!-- Header Landmark -->
+				<video autoplay muted loop playsinline class="header-video" aria-hidden="true">
 					<source src="videos/0504(1).mp4" type="video/webm">
 				</video>
 				<div class="inner">
@@ -55,9 +41,8 @@
 						<li><a href="#one" class="button scrolly">Explore Solutions</a></li>
 					</ul>
 				</div>
-			</section>
+			</header>
 
-		<!-- Section One: Value Proposition -->
 			<section id="one" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
@@ -66,51 +51,48 @@
 								<h2>Stop Guessing.<br /> Start Optimizing.</h2>
 							</header>
 							<p>Modern businesses face a massive amount of choices every day. Traditional methods often fail to find the truly best solution among millions of possibilities.</p>
-							<p>Our technology takes your unique constraints and goals to find the single most efficient way to run your operations. It’s not just an estimate—it’s mathematically proven to be the best possible outcome for your business.</p>
+							<p>Our technology takes your unique constraints and goals to find the single most efficient way to run your operations.</p>
 							<ul class="actions">
 								<li><a href="#pricing" class="button scrolly">View Pricing</a></li>
 							</ul>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/960px-Strommasten_bei_Sonnenuntergang.jpg" alt="Optimization Illustration" /></span>
+							<!--  6: Better Alt Text -->
+							<span class="image fit"><img src="images/960px-Strommasten_bei_Sonnenuntergang.jpg" alt="High voltage power lines during sunset representing infrastructure optimization" /></span>
 						</div>
 					</div>
 				</div>
 			</section>
 
-		<!-- Section Pricing: Subscription Model -->
 			<section id="pricing" class="main style1 special">
 				<div class="container">
 					<header class="major">
 						<h2>Pricing & Licenses</h2>
 					</header>
-					<p>Choose the subscription plan that fits your organizational needs.</p>
 					<div class="row gtr-150">
-						<!-- Academia Plan -->
-    <div class="col-6 col-12-medium">
-        <div class="pricing-card"> <!-- Gleiche Klasse für beide -->
-            <h3>Academia</h3>
-            <div class="price">0 € <span>/ Year</span></div>
-            <ul class="alt">
-                <li>Full solver functionality</li>
-                <li>Email verification required</li>
-            </ul>
-            <ul class="actions special">
-                <li><a href="contact.html" class="button primary">Request License</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Enterprise Plan -->
-    <div class="col-6 col-12-medium">
-        <div class="pricing-card"> 
-            <h3>Enterprise</h3>
-            <div class="price">2,400 € <span>/ Year</span></div>
-            <ul class="alt">
-                <li>Unlimited variables</li>
-                <li>Priority support included</li>
-            </ul>
-            <ul class="actions special">
-                <li><a href="checkout.html" class="button primary">Purchase License</a></li>
+						<div class="col-6 col-12-medium">
+							<div class="pricing-card">
+								<h3>Academia</h3>
+								<div class="price">0 € <span>/ Year</span></div>
+								<ul class="alt">
+									<li>Full solver functionality</li>
+									<li>Email verification required</li>
+								</ul>
+								<ul class="actions special">
+									<li><a href="contact.html" class="button primary">Request License</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-6 col-12-medium">
+							<div class="pricing-card"> 
+								<h3>Enterprise</h3>
+								<div class="price">2,400 € <span>/ Year</span></div>
+								<ul class="alt">
+									<li>Unlimited variables</li>
+									<li>Priority support included</li>
+								</ul>
+								<ul class="actions special">
+									<li><a href="checkout.html" class="button primary">Purchase License</a></li>
 								</ul>
 							</div>
 						</div>
@@ -118,28 +100,29 @@
 				</div>
 			</section>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="contact.html" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li><a href="imprint.html">Imprint</a></li>
-					<li><a href="data-protection.html">Privacy Policy</a></li>
-					<li><a href="license.html">License</a></li>
-					<li><a href="accessibility.html">Accessibility Statement</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</footer>
+		</main>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<footer id="footer">
+			<ul class="icons">
+				<!--  7: Added aria-labels for icon links -->
+				<li><a href="https://github.com/ArminTabakovic/exercise-webshop" class="icon brands alt fa-github" aria-label="Visit our GitHub Repository"><span class="label">GitHub</span></a></li>
+				<li><a href="contact.html" class="icon solid alt fa-envelope" aria-label="Send us an Email"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li><a href="imprint.html">Imprint</a></li>
+				<li><a href="data-protection.html">Privacy Policy</a></li>
+				<li><a href="license.html">License</a></li>
+				<li><a href="accessibility.html">Accessibility Statement</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</footer>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
