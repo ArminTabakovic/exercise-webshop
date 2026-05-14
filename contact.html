@@ -3,13 +3,18 @@
 <head>
     <title>Contact - MINOPTAR</title>
     <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+<body class ="is-preload">
+		
 
-    <!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
+   <!-- Skip Link für Tastaturbenutzer -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Nav Landmark mit Label -->
+    <nav id="nav-sticky" aria-label="Main Navigation">
+        <div class="nav-logo-container">
 				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
@@ -20,9 +25,11 @@
 			</ul>
 		</nav>
 
+
+<main id="main">
      <section class="main style1">
         <div class="container">
-            <header class="major"><h2>Contact Us</h2></header>
+            <header class="major"><h1>Contact Us</h1></header>
             <form method="post" action="#">
                 <div class="row gtr-uniform">
                     <div class="col-6 col-12-xsmall"><input type="email" name="email" placeholder="Email" /></div>
@@ -32,6 +39,8 @@
             </form>
         </div>
     </section>
+
+</main>
 
         <!-- Footer -->
 			<footer id="footer">
