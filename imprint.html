@@ -3,13 +3,17 @@
 <head>
     <title>Imprint and disclosure notice</title>
     <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+<body class = "is-preload">
 
-    <!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
+    <!-- Skip Link für Tastaturbenutzer -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Nav Landmark mit Label -->
+    <nav id="nav-sticky" aria-label="Main Navigation">
+        <div class="nav-logo-container">
 				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
@@ -20,10 +24,10 @@
 			</ul>
 		</nav>
 
-
+<main id="main">
     <section class="main style1">
     <div class="container">
-        <header class="major"><h2>Imprint and Disclosure Notice</h2></header>
+        <header class="major"><h1>Imprint and Disclosure Notice</h1></header>
         <p><strong>Information according to § 5 E-Commerce Act and § 24 Media Act:</strong></p>
         <p>
             <strong>MINOPTAR GmbH</strong><br>
@@ -47,7 +51,7 @@
         </p>
 
         <!-- Documentation of Media -->
-				<h3>Media Credits & Copyright</h3>
+				<h2>Media Credits & Copyright</h2>
 				<p>The following media assets are used on this website and in the documentation:</p>
 				<ul>
                     <li><strong>Website Template:</strong> "Photon" by <a href="https://html5up.net">HTML5 UP</a>. Licensed under the Creative Commons Attribution 3.0 License (CCA 3.0). <a href="https://github.com/ArminTabakovic/exercise-webshop/blob/main/README.txt">Template's README</a> for further credits</li>
@@ -57,6 +61,7 @@
 				</ul>
     </div>
 </section>
+</main>
 
 
     <!-- Footer -->
