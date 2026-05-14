@@ -3,12 +3,16 @@
 <head>
     <title>About Us - MINOPTAR GmbH</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
-    	<!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
+<body class ="is-preload">
+    	<!-- FIX: Skip Link für Tastaturbenutzer -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- FIX: Nav Landmark mit Label -->
+    <nav id="nav-sticky" aria-label="Main Navigation">
+        <div class="nav-logo-container">
 				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
@@ -18,10 +22,11 @@
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
-        
+
+<main id="main">
     <section class="main style1">
         <div class="container">
-            <header class="major"><h2>About us - MINOPTAR</h2></header>
+            <header class="major"><h1>About us - MINOPTAR</h1></header>
             <p><strong>MINOPTAR GmbH</strong> is a Vienna-based startup specializing in mathematical optimization.</p>
 
             <hr />
@@ -44,7 +49,7 @@
 
                 <!-- Figurative Mark -->
                 <div class="col-12">
-                    <h4>2. Figurative Mark: The Polyhedron</h4>
+                    <h4>2. Figurative Mark: The Polyhedron next to MINOPTAR in the header</h4>
                     <p>Our logo is a stylized dodecahedron. In mathematical optimization, business decisions are often modeled as <em>Integer Linear Programs</em>. The set of feasible solutions to these problems is a <strong>polyhedron</strong> defined by linear constraints. Our logo visually represents the "feasible region" where the optimal solution is found.</p>
                     <p><strong>Nizza Classes:</strong> 9 & 42, as it appears in our software application and is a identity for our services.</p>
                 </div>
@@ -64,7 +69,7 @@
             </div>
         </div>
     </section>
-
+</main>
 
     <!-- Footer -->
 			<footer id="footer">

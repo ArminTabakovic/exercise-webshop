@@ -3667,3 +3667,7 @@ a:focus, button:focus, input:focus, textarea:focus {
 main {
     display: block;
 }
+
+h1 {
+    font-size: 2.25em; 
+}
