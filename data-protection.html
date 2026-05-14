@@ -3,12 +3,16 @@
 <head>
     <title>Data Protection - MINOPTAR</title>
     <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
-    <!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
+<body class ="is-preload">
+    <!-- Skip Link für Tastaturbenutzer -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Nav Landmark mit Label -->
+    <nav id="nav-sticky" aria-label="Main Navigation">
+        <div class="nav-logo-container">
 				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
@@ -19,27 +23,28 @@
 			</ul>
 		</nav>
 
+<main id="main"> 
       <section class="main style1">
         <div class="container">
-            <header class="major"><h2>Privacy Policy</h2></header>
+            <header class="major"><h1>Privacy Policy</h1></header>
             
             MINOPTAR GmbH places a high priority on the responsible handling of personal data according to the GDPR (DSVGO).</p>
 
-            <h3>Who is the data controller, and what are their contact details?</h3>
+            <h2>Who is the data controller, and what are their contact details?</h2>
             <p>MINOPTAR GmbH<br>
             Street Name 123, 900 Vienna, Austria<br>
             Email: office@minoptar.example.com<br>
 			Phone Number: +43 1 1234567</p>
 		</p>
 
-            <h3>Data Collection on our Website</h3>
+            <h2>Data Collection on our Website</h2>
             
-            <h4>Contact Form</h4>
+            <h3>Contact Form</h3>
             <p>When you request an Academia license via our contact form, we collect your email address. This data is used exclusively to process your request and to verify your academic status. The legal basis for this is Art. 6(1)(b) GDPR.
 				<br>We store the email address for the duration of the license validity and delete it immeadiately after.
 			</p>
 
-            <h4>Payment Processing</h4>
+            <h3>Payment Processing</h3>
             <p>For the purchase of Enterprise licenses, we use external payment service providers. When you click the purchase button, you are redirected to the provider's website. 
 				We do not store or process your credit card information. 
 				However, for contract fulfillment, the provider transmits your contact details back to us. Legal basis: Art. 6(1)(b) GDPR.
@@ -47,20 +52,21 @@
 			is stored for 7 years due to Austrian law (Bundesabgabenordnung § 132).
 			</p>
 
-            <h4>Server Log Files</h4>
+            <h3>Server Log Files</h3>
             <p>The hosting provider (GitHub Pages) states that When a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes (Art. 6(1)(f) GDPR).</p>
 
-            <h4>Cookies & Analysis Tools</h4>
+            <h3>Cookies & Analysis Tools</h3>
             <p>We do not use cookies that require your consent. We do not use third-party analysis tools. 
 			Any cookies used are strictly necessary for the technical functioning of the site.</p>
 
-            <h3>Your Rights</h3>
+            <h2>Your Rights</h2>
  			You generally have the right to  (Art. 15 GDPR), rectification (Art. 16 GDPR), erasure (Art. 17 GDPR), restriction (Art. 18 GDPR), data portability (Art. 20 GDPR), objection (Art. 21 GDPR). 
 			If you believe that the processing of your data violates data protection law or that your data protection rights 
 			have otherwise been infringed, you may file a complaint with the supervisory authority. 
 			In Austria, this is the Data Protection Authority.
         </div>
     </section>
+</main>
     
     <!-- Footer -->
 			<footer id="footer">
