@@ -3683,3 +3683,31 @@ h3 {
 header.major h1 {
     margin-bottom: 0.25em; /* Zieht den Text näher an die Linie */
 }
+
+/* Schiebt den gesamten Header-Inhalt unter die Navigationsleiste */
+#header {
+    padding-top: 14em !important; /* Erhöht den Abstand von oben */
+}
+
+/* Falls das Video selbst zu weit oben klebt, geben wir ihm einen kleinen Offset */
+.header-video {
+    top: calc(50% + 2em); /* Verschiebt den Mittelpunkt des Videos leicht nach unten */
+}
+
+/* Fix für den Text-Container im Header */
+#header .inner {
+    padding-top: 2em; /* Zusätzlicher Puffer für die Überschrift */
+}
+
+/* Den Text-Container im Header minimal nach oben schieben */
+#header .inner {
+    position: relative;
+    margin-top: -1cm !important; /* Schiebt den gesamten Block exakt 1cm hoch */
+}
+
+/* Falls der Abstand zwischen dem Video und dem Text zu groß wirkt, 
+   kannst du auch das Padding des Headers feinjustieren: */
+#header {
+    padding-top: 12em !important; /* Etwas weniger als die vorherigen 14em, um es hochzuziehen */
+    padding-bottom: 7em !important;
+}
