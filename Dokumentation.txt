@@ -12,12 +12,13 @@ Es werden unteranderem nützliche Links und Tools festgehalten.
 - Bildmarke und Wortmarke keine Verletzung des Markenrechts festgestellt mit https://www.tmdn.org/ 
 Da Bildmarke keine Verletzung wird bei der Bewegunngsmarke auch von keiner Verletzung ausgegangen.
 Zuordnung zu den Nizzaklassen: 
-- https://www.patentamt.at/nizzaklassen
+- https://www.patentamt.at/nizzaklassen ganz unten stehen Beispiele wie man die Nizzaklassen nutzt, um zu definieren für welche Waren/Dienstleistungen die Marke geschützt ist.
     - https://www.patentamt.at/infoblaetter#c1646
         - Liste der Waren: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassiifikation_von_Nizza_NCL_13-2026_Liste_der_Waren_nach_Klassen.pdf
-        - herunterladbare Software-Anwendungen für Computer, Klasse 9
+        - Downloadable computer software, Optimisation Software, Klasse 9, 2 Begriffe aus Harmonisierter Datenbank
+            - https://euipo.europa.eu/ec2/search/find?language=en&text=optimierer&niceClass=&size=25&page=1&harmonised=true&searchMode=WORDSPREFIX&sortBy=relevance
         - Liste der Dienstleistungen: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassifikation_von_Nizza_NCL_13-2026_Liste_der_Dienstleistungen_nach_Klassen.pdf
-        - Software as a Service [SaaS], Klasse 42
+        - ich biete keine Dienstleistungen an, ich biete nur das Produkt an
 
 - Überlegung welche Gesellschaftsform in Frage kommt. Auswahl zwischen GmbH und Einzelunternehmen fiel auf GmbH,
 Einzelunternehmen schien weniger rechtlichen Overhead mizubringen und ich dachte die Haftung kann ich mit Klauseln im Licencse Agreement
@@ -39,7 +40,7 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
     - https://cdn.bfldr.com/KUZMZM51/as/2x48mbxwmr38mbwppzb74sk9/Gurobi-Standard-EULA
     - https://my.uq.edu.au/files/6810/matlab-end-user-licence-agreement.pdf
 - Vorgangsweise: Nehme die Schnittmenge an Text den ich verstehe plus für meine Software als wichtig erachte
-- TODO: Nationales Recht beachten, das sind keine österreichischen Unternehmen.
+- Nationales Recht beachten, das sind keine österreichischen Unternehmen.
 
 
 - Datenschutzerklärung
