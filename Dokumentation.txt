@@ -59,4 +59,6 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
 
 
 - Barrierefreiheitserklärung
-    - https://www.audioeye.com/
+    - alle Seiten gescannt mit: https://www.accessibilitychecker.org/
+    - benutzte Vorlage: https://www.digitalbarrierefrei.at/de/umsetzen/barrierefreiheitserklaerung/mustererklaerung-englisch
+    - verglichen mit Beispielseite: https://www.bmf.gv.at/public/barrierefreiheitserklaerung.html

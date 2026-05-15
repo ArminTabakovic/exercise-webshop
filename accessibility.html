@@ -3,13 +3,17 @@
 <head>
     <title>Accessibility Statement - MINOPTAR</title>
     <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+<body class ="is-preload">
 
-    <!-- Sticky Header Navigation -->
-		<nav id="nav-sticky">
-			<div class="nav-logo-container">
+    <!-- Skip Link für Tastaturbenutzer -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Nav Landmark mit Label -->
+    <nav id="nav-sticky" aria-label="Main Navigation">
+        <div class="nav-logo-container">
 				<img src="images/logo_zoomed.png" alt="MINOPTAR Polyhedron Logo" class="nav-logo-img" />
 				<span class="nav-logo-text">MINOPTAR</span>
 			</div>
@@ -20,8 +24,60 @@
 			</ul>
 		</nav>
 
-    test accessbility
+<main id="main">
 
+	  <section class="main style1">
+            <div class="container">
+                <header class="major">
+                    <h1>Accessibility Statement</h1>
+                </header>
+                
+                <p>MINOPTAR GmbH is committed to making its Website accessible, in accordance with the Web-Zugänglichkeits-Gesetz (WZG BGBl. I. Nr. 59/2019 idgF).</p>
+
+                <p>This accessibility statement applies to <a href="https://armintabakovic.github.io/exercise-webshop/index.html">https://armintabakovic.github.io/exercise-webshop/index.html</a> and all its subpages.</p>
+
+                <h2>Compliance status</h2>
+                <p>This website is fully compliant with Conformance Level AA of the “Web Content Accessibility Guidelines – WCAG 2.1” and the applicable European standard EN 301 549 V3.2.1 (2021-03) according to Directive (EU) 2016/2102 of the European Parliament and of the Council.</p>
+
+                <h2>Preparation of this accessibility statement</h2>
+                <p>This statement was prepared on 15th May 2026. The assessment was carried out by the third-party tool <a href="https://www.accessibilitychecker.org/" target="_blank" aria-label="AccessibilityChecker.org (opens in a new window)">AccessibilityChecker.org</a>. The statement was last reviewed on 15th May 2026.</p>
+
+                <hr />
+
+                <h2>Feedback and contact information</h2>
+                <p>If you find any barriers on our website or if you need further information on content, please use our feedback mechanism. You can reach us via our 
+                <a href="contact.html" aria-label="Go to our contact form">Contact Form</a> or by sending an email directly to us.</p>
+
+                <p>Responsible for accessibility and processing feedback:<br>
+                MINOPTAR GmbH<br>
+                Email: <a href="mailto:office@minoptar.example.com">office@minoptar.example.com</a><br>
+
+                <hr />
+
+                <h2>Enforcement procedure</h2>
+                <p>If the response from the above contact is not satisfactory, you may file a complaint with the 
+    <a href="https://www.ffg.at/" target="_blank" aria-label="Austrian Research Promotion Agency (FFG) (opens in new window)">Austrian Research Promotion Agency (FFG)</a>. The FFG accepts complaints filed online via their 
+    <a href="https://www.digitalbarrierefrei.at/en/submit-a-complaint/contact-form-federal-complaints-office" target="_blank" aria-label="Contact FFG Enforcement Body (opens in a new window)">electronic contact form</a>.</p>
+                
+                <p>The FFG will examine whether the complaint relates to violations of the Web-Zugänglichkeits-Gesetz (WZG), particularly to failure on the part of the federal government or associated institutions to comply with the accessibility requirements.</p>
+
+                <p>If the complaint is justified, the FFG will make recommendations for action to the federal government or the legal entities concerned and propose measures designed to remedy the problem.</p>
+                
+                <ul class="actions">
+                    <li><a href="https://www.digitalbarrierefrei.at/en/submit-a-complaint/contact-form-federal-complaints-office" target="_blank" class="button small" aria-label="Contact FFG Enforcement Body (opens in a new window)">Contact FFG Enforcement Body</a></li>
+                </ul>
+
+                <p>
+
+    <a href="https://www.digitalbarrierefrei.at/en/submit-a-complaint/information-on-the-complaints-process" target="_blank" aria-label="Further information on the complaints process (opens in new window)">
+        Further information on the enforcement procedure
+    </a>
+</p>
+
+            </div>
+        </section>
+
+</main>
 
     <!-- Footer -->
 			<footer id="footer">
