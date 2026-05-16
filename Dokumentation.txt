@@ -1,5 +1,5 @@
 Dokumentation um den Prozess der Erstellung des Webshops nachvollzuziehen und eventuell für spätere Zwecke reproduzieren zu können
-Es werden unteranderem nützliche Links und Tools festgehalten.
+Es werden unteranderem auch nützliche Links und Tools festgehalten.
 
 - Github pages aufsetzen und https://html5up.net/ Template rausgesucht.
 
@@ -43,7 +43,8 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
 - gleiches für § 5 Abs 1 Z 6 E-Commerce-Gesetz, das entfällt denke ich auch
 
 
-- Lizenz formulieren: EULA von Gurobi sehr viel übernommen und angepasst an mein Software Modell; Gurobi und Matlab, die bieten ebenfalls Optimierer als Software an.
+- Lizenz formulieren: Ich bin sehr interessiert am Unternehmen Gurobi und wollte mich mit deren EULA auseinandersetzen.
+EULA von Gurobi sehr viel übernommen und angepasst an mein Software Modell; Gurobi und Matlab, die bieten ebenfalls Optimierer als Software an.
     - https://cdn.bfldr.com/KUZMZM51/as/2x48mbxwmr38mbwppzb74sk9/Gurobi-Standard-EULA
     - https://my.uq.edu.au/files/6810/matlab-end-user-licence-agreement.pdf
 - Vorgangsweise: Nehme die Schnittmenge an Text den ich verstehe plus für meine Software als wichtig erachte
