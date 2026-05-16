@@ -34,6 +34,9 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
 - Beispiel Impressum als Orientierungshilfe:
     - https://anyline.com/imprint-and-legal (auch auf Englisch vorhanden)
     - https://www.runtastic.com/legal
+- ich denke § 5 Abs 1 Z 5 E-Commerce-Gesetz Information weglassen, da Software-Entwicklung und Vetrieb davon freies Gewerbe, und keine Kammerpflicht -> keine behördliche Aufsicht;
+  keine berufsrechtlichen Regelungen bzw. Berufsordnung gefunden.
+- gleiches für § 5 Abs 1 Z 6 E-Commerce-Gesetz
 
 
 - Lizenz formulieren: Orientierung an Gurobi und Matlab, die bieten ebenfalls Optimierer als Software an.
