@@ -1,29 +1,33 @@
 Dokumentation um den Prozess der Erstellung des Webshops nachvollzuziehen und eventuell für spätere Zwecke reproduzieren zu können
 Es werden unteranderem nützliche Links und Tools festgehalten.
 
-- Github pages aufsetzen und https://html5up.net/ Template rausgesucht
+- Github pages aufsetzen und https://html5up.net/ Template rausgesucht.
 
-- Bild- und Bewegungsmarke mit Python library matplotlib erstellt. Lizenz dieser lib: https://matplotlib.org/stable/project/license.html#license-agreement
+- Da HTML neu für mich, den technologischen Aspekt der Website mithilfe von KI erstellt. 
+
+
+- Bild- und Bewegungsmarke mit Python Library Matplotlib erstellt. KI dabei beim Coden eingesetzt. Lizenz dieser lib: https://matplotlib.org/stable/project/license.html#license-agreement
     - Aus "License agreement for matplotlib versions 1.3.0 and later" Punkt 2 kann man rauslesen, dass die licence einem viele Rechte gewährt"...provided, however, ... notice of copyright", meines Erachtens
     bezieht sich der Absatz allerdings auf den Code der Library und die "derivative works" auch auf Code und nicht auf den generierten Output.
     - Dementsprechend habe ich keine Klausel gefunden, die die Verwendung des Outputs beschränkt oder eine benötigte Markierung des Outputs vorsieht.
 
-
 - Bildmarke und Wortmarke keine Verletzung des Markenrechts festgestellt mit https://www.tmdn.org/ 
-Da Bildmarke keine Verletzung wird bei der Bewegunngsmarke auch von keiner Verletzung ausgegangen.
-Zuordnung zu den Nizzaklassen: 
+  Da Bildmarke keine Verletzung wird bei der Bewegunngsmarke auch von keiner Verletzung ausgegangen.
+  Zuordnung zu den Nizzaklassen: 
 - https://www.patentamt.at/nizzaklassen ganz unten stehen Beispiele wie man die Nizzaklassen nutzt, um zu definieren für welche Waren/Dienstleistungen die Marke geschützt ist.
     - https://www.patentamt.at/infoblaetter#c1646
         - Liste der Waren: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassiifikation_von_Nizza_NCL_13-2026_Liste_der_Waren_nach_Klassen.pdf
-        - Downloadable computer software, Optimisation Software, Klasse 9, 2 Begriffe aus Harmonisierter Datenbank
+        - Downloadable computer software, Optimisation Software, Klasse 9, zwei Begriffe aus Harmonisierter Datenbank
             - https://euipo.europa.eu/ec2/search/find?language=en&text=optimierer&niceClass=&size=25&page=1&harmonised=true&searchMode=WORDSPREFIX&sortBy=relevance
         - Liste der Dienstleistungen: https://www.patentamt.at/fileadmin/root_oepa/Dateien/Marken/MA_Infoblaetter/Klassifikation_von_Nizza_NCL_13-2026_Liste_der_Dienstleistungen_nach_Klassen.pdf
         - ich biete keine Dienstleistungen an, ich biete nur das Produkt an
+
 
 - Überlegung welche Gesellschaftsform in Frage kommt. Auswahl zwischen GmbH und Einzelunternehmen fiel auf GmbH,
 Einzelunternehmen schien weniger rechtlichen Overhead mizubringen und ich dachte die Haftung kann ich mit Klauseln im Licencse Agreement
 regeln, aber Recherche: es muss nicht sein, dass diese Klauseln vor Gericht standhalten, deswegen GmbH mit 
 beschränkter Haftung doch die sicherere Wahl.
+
 
 - Impressum: Mediengesetz: https://www.usp.gv.at/themen/brancheninformationen/information-und-kommunikation/impressumspflicht-gemaess-para-24-mediengesetz.html
 - Mediengesetz leitet weiter auf E-Commerce-Gesetz, 
@@ -36,10 +40,10 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
     - https://www.runtastic.com/legal
 - ich denke § 5 Abs 1 Z 5 E-Commerce-Gesetz Information weglassen, da Software-Entwicklung und Vetrieb davon freies Gewerbe, und keine Kammerpflicht -> keine behördliche Aufsicht;
   keine berufsrechtlichen Regelungen bzw. Berufsordnung gefunden.
-- gleiches für § 5 Abs 1 Z 6 E-Commerce-Gesetz
+- gleiches für § 5 Abs 1 Z 6 E-Commerce-Gesetz, das entfällt denke ich auch
 
 
-- Lizenz formulieren: Orientierung an Gurobi und Matlab, die bieten ebenfalls Optimierer als Software an.
+- Lizenz formulieren: EULA von Gurobi sehr viel übernommen und angepasst an mein Software Modell; Gurobi und Matlab, die bieten ebenfalls Optimierer als Software an.
     - https://cdn.bfldr.com/KUZMZM51/as/2x48mbxwmr38mbwppzb74sk9/Gurobi-Standard-EULA
     - https://my.uq.edu.au/files/6810/matlab-end-user-licence-agreement.pdf
 - Vorgangsweise: Nehme die Schnittmenge an Text den ich verstehe plus für meine Software als wichtig erachte
@@ -63,6 +67,6 @@ laut § 3 Z 2 E-Commerce-Gesetz bin ich Diensteanbieter und muss Informationspfl
 
 
 - Barrierefreiheitserklärung
-    - alle Seiten gescannt mit: https://www.accessibilitychecker.org/
+    - alle Seiten gescannt mit: https://www.accessibilitychecker.org/, Score ist überall 95
     - benutzte Vorlage: https://www.digitalbarrierefrei.at/de/umsetzen/barrierefreiheitserklaerung/mustererklaerung-englisch
     - verglichen mit Beispielseite: https://www.bmf.gv.at/public/barrierefreiheitserklaerung.html
